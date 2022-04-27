@@ -1,4 +1,3 @@
-/* eslint-disable no-constant-condition */
 <template>
   <div class="list-controls">
     <button title="Додає випадкову породу" @click="addRandomBreed">
@@ -70,4 +69,14 @@ export default {
 </script>
 
 <style>
+.list-controls {
+  position: absolute;
+  top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0.4rem;
+  width: 100%;
+  height: 5rem;
+}
 </style>
