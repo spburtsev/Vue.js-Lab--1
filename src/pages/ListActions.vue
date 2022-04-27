@@ -76,7 +76,7 @@ export default {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 0.4rem;
-  width: 100%;
+  width: 50%;
   height: 5rem;
 }
 </style>
